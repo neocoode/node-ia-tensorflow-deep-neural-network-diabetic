@@ -1,4 +1,4 @@
-# node-ia-tensorflow-deep-neural-network-diabetic
+# Diabetes Prediction using Deep Neural Networks with TensorFlow.js
 
 This project implements a deep neural network to predict the likelihood of a patient having diabetes based on physiological 
 attributes such as age, weight, BMI, and blood pressure. The model is built using TensorFlow.js and employs a sequential 
