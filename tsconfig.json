@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@data/*": ["data/*"],
+      "@models/*": ["models/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
+}

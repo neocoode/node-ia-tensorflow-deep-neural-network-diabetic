@@ -1,0 +1,15 @@
+printWidth: 100 # Limita a largura da linha para 100 caracteres
+singleQuote: true # Usa aspas simples em vez de aspas duplas
+trailingComma: all # Adiciona vírgula no final de objetos, arrays, etc.
+arrowParens: always # Sempre coloca parênteses em torno de parâmetros de arrow functions
+semi: true # Adiciona ponto e vírgula no final das declarações
+tabWidth: 2 # Define a largura do tab como 2 espaços
+useTabs: false # Usa espaços em vez de tabs
+bracketSpacing: true # Adiciona espaço dentro de chaves em objetos
+endOfLine: lf # Usa o caractere de nova linha LF
+jsxSingleQuote: true # Usa aspas simples em JSX
+quoteProps: as-needed # Adiciona aspas às propriedades de objetos apenas quando necessário
+htmlWhitespaceSensitivity: css # Respeita a sensibilidade a espaços em branco conforme o CSS
+embeddedLanguageFormatting: auto # Formata código embutido automaticamente
+proseWrap: preserve # Mantém as quebras de linha no markdown conforme escrito
+vueIndentScriptAndStyle: true # Indenta o conteúdo dos blocos `<script>` e `<style>` em arquivos Vue
