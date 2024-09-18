@@ -1,5 +1,0 @@
-"*.{json,md}":
-  - prettier --write
-"*.ts":
-  - eslint --cache --fix
-  - prettier --write

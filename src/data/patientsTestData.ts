@@ -7,7 +7,7 @@ export const testPatients: PatientData[] = [
     name: 'Novo Paciente 1',
     age: 30,
     weight: 80,
-    height: 1.80,
+    height: 1.8,
     bloodPressure: 125,
     diabetes: 0, // Estes valores serão previstos pelo modelo
     highBloodPressure: 0,
@@ -17,7 +17,7 @@ export const testPatients: PatientData[] = [
     name: 'Novo Paciente 2',
     age: 50,
     weight: 88,
-    height: 1.70,
+    height: 1.7,
     bloodPressure: 135,
     diabetes: 0,
     highBloodPressure: 0,
@@ -47,10 +47,10 @@ export const testPatients: PatientData[] = [
 
 // Preparar os dados para previsão
 export const testFeatures = tf.tensor2d(
-  testPatients.map(patient => [
+  testPatients.map((patient) => [
     patient.age,
     patient.weight,
     patient.height,
     patient.bloodPressure,
-  ])
+  ]),
 );

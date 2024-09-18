@@ -28,7 +28,12 @@ import { createModel, trainModel } from '@models/diabetesModel';
       console.log(`Diabetes: ${diabetesProb >= 0.5 ? 'Sim' : 'Não'}`);
       console.log(`Pressão Alta: ${highBPProb >= 0.5 ? 'Sim' : 'Não'}`);
     });
-  } catch (error: any) {
-    console.log(error.message);
+  } catch (error: unknown) {
+    // Corrigido para usar apenas `unknown`
+    if (error instanceof Error) {
+      console.log(error.message);
+    } else {
+      console.error('Unknown error:', error);
+    }
   }
 })();

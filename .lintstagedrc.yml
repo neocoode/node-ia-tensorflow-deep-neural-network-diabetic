@@ -1,4 +1,6 @@
-"*.{json,md}":
+# .lintstagedrc.yml
+"*.json":
   - prettier --write
-"*.js":
-  - eslint --cache --fix
+# "*.ts":
+  # - eslint --fix
+  # - prettier --write

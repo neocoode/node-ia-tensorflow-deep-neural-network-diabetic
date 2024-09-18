@@ -5,9 +5,9 @@ module.exports = {
   resolve: {
     alias: {
       '@data': path.resolve(__dirname, 'src/data/'),
-      '@models': path.resolve(__dirname, 'src/models/')
+      '@models': path.resolve(__dirname, 'src/models/'),
     },
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
   },
   // ...
 };

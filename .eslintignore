@@ -1,0 +1,29 @@
+# .eslintignore
+
+**/node_modules/**
+*.yml
+commitlint.config.js
+webpack.config.js
+
+# Ignorar diretórios de dependências e build
+node_modules/
+dist/
+coverage/
+.build/
+.cache/
+public/
+
+# Ignorar arquivos de configuração do sistema ou IDE
+.idea/
+.vscode/
+*.lock
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos gerados pelo sistema
+.DS_Store
+
+# Ignorar arquivos de testes compilados ou snapshots
+**/*.test.js
+**/*.spec.js
+__snapshots__/

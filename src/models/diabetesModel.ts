@@ -18,7 +18,7 @@ export function createModel() {
   model.compile({
     optimizer: 'adam',
     loss: 'binaryCrossentropy',
-    metrics: ['accuracy']
+    metrics: ['accuracy'],
   });
 
   return model;
@@ -28,7 +28,7 @@ export function createModel() {
 export async function trainModel(model: tf.Sequential) {
   await model.fit(trainingData, outputData, {
     epochs: 100,
-    batchSize: 1
+    batchSize: 1,
   });
   console.log('Modelo treinado com sucesso!');
 }

@@ -38,7 +38,7 @@ export const trainingPatients: PatientData[] = [
     name: 'Paciente 3',
     age: 40,
     weight: 68,
-    height: 1.70,
+    height: 1.7,
     bloodPressure: 140,
     diabetes: 0,
     highBloodPressure: 1,
@@ -58,7 +58,7 @@ export const trainingPatients: PatientData[] = [
     name: 'Paciente 5',
     age: 50,
     weight: 95,
-    height: 1.60,
+    height: 1.6,
     bloodPressure: 160,
     diabetes: 1,
     highBloodPressure: 1,
@@ -67,14 +67,14 @@ export const trainingPatients: PatientData[] = [
 ];
 
 // Extrair as entradas (features) e as saídas (labels)
-const trainingFeatures = trainingPatients.map(patient => [
+const trainingFeatures = trainingPatients.map((patient) => [
   patient.age,
   patient.weight,
   patient.height,
   patient.bloodPressure,
 ]);
 
-const trainingLabels = trainingPatients.map(patient => [
+const trainingLabels = trainingPatients.map((patient) => [
   patient.diabetes,
   patient.highBloodPressure,
   patient.obesity,
