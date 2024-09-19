@@ -123,6 +123,9 @@ if (Array.isArray(prediction)) {
 - **Exibição do resultado**:
   - O valor previsto é exibido usando o método `print()` do TensorFlow, que imprime o tensor no console. O valor será um número entre 0 e 1, indicando a probabilidade do paciente ter diabetes. Se o valor for próximo de 1, o modelo prevê que o paciente provavelmente tem diabetes.
 
+<img width="664" alt="image" src="https://github.com/user-attachments/assets/1eb730a3-a5a8-401b-9585-868d9dd33397">
+
+
 ### Conclusão:
 
 Este projeto demonstra o poder do **TensorFlow.js** para criar e treinar uma rede neural profunda para classificação binária, como a previsão de diabetes com base em características fisiológicas. O uso do TensorFlow.js em ambientes de Node.js facilita o desenvolvimento de aplicações de aprendizado de máquina no backend, tornando o treinamento de redes neurais mais acessível em projetos JavaScript.
